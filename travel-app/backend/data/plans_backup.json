@@ -1,0 +1,204 @@
+{
+  "plans": {
+    "city-beijing": {
+      "city": { "id": "city-beijing", "name": "北京", "cover_img": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20travel&image_size=landscape_16_9" },
+      "plans": [
+        {
+          "day": 1,
+          "title": "经典皇城线",
+          "spots": [
+            { "name": "故宫", "time": "09:00-12:00", "duration": "3h", "tip": "提前在官网预约门票，周一闭馆", "lat": 39.9163, "lng": 116.3972, "cps_link": null },
+            { "name": "天安门广场", "time": "12:00-13:00", "duration": "1h", "tip": "免费开放，需安检", "lat": 39.9054, "lng": 116.3976, "cps_link": null },
+            { "name": "王府井", "time": "13:00-15:00", "duration": "2h", "tip": "午餐推荐全聚德烤鸭", "lat": 39.9143, "lng": 116.4114, "cps_link": null },
+            { "name": "南锣鼓巷", "time": "15:00-17:00", "duration": "2h", "tip": "胡同文化，特色小吃", "lat": 39.9367, "lng": 116.4031, "cps_link": null }
+          ],
+          "tips": "全天步行较多，穿舒适鞋子"
+        },
+        {
+          "day": 2,
+          "title": "长城壮阔行",
+          "spots": [
+            { "name": "八达岭长城", "time": "08:00-13:00", "duration": "5h", "tip": "早出发避开人流，缆车单程100元", "lat": 40.3587, "lng": 116.0169, "cps_link": null },
+            { "name": "鸟巢水立方", "time": "15:00-17:00", "duration": "2h", "tip": "外观免费，入内需购票", "lat": 39.9929, "lng": 116.3964, "cps_link": null },
+            { "name": "三里屯", "time": "18:00-21:00", "duration": "3h", "tip": "晚餐+夜生活聚集地", "lat": 39.9336, "lng": 116.4553, "cps_link": null }
+          ],
+          "tips": "长城路途较远，建议跟团或自驾"
+        },
+        {
+          "day": 3,
+          "title": "皇家园林游",
+          "spots": [
+            { "name": "颐和园", "time": "09:00-12:30", "duration": "3.5h", "tip": "皇家园林，建议游船", "lat": 39.9990, "lng": 116.2755, "cps_link": null },
+            { "name": "圆明园", "time": "13:30-16:00", "duration": "2.5h", "tip": "西洋楼遗址必看", "lat": 40.0068, "lng": 116.2994, "cps_link": null },
+            { "name": "清华大学", "time": "16:00-17:00", "duration": "1h", "tip": "需提前预约参观", "lat": 40.0084, "lng": 116.3225, "cps_link": null }
+          ],
+          "tips": "颐和园较大，建议租电瓶车代步"
+        }
+      ]
+    },
+    "city-shanghai": {
+      "city": { "id": "city-shanghai", "name": "上海", "cover_img": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Bund%20travel&image_size=landscape_16_9" },
+      "plans": [
+        {
+          "day": 1,
+          "title": "外滩万国风",
+          "spots": [
+            { "name": "外滩", "time": "09:00-11:00", "duration": "2h", "tip": "万国建筑博览群，免费", "lat": 31.2397, "lng": 121.4906, "cps_link": null },
+            { "name": "南京路步行街", "time": "11:00-13:00", "duration": "2h", "tip": "购物+午餐", "lat": 31.2361, "lng": 121.4786, "cps_link": null },
+            { "name": "豫园", "time": "14:00-16:00", "duration": "2h", "tip": "江南园林，门票40元", "lat": 31.2273, "lng": 121.4920, "cps_link": null },
+            { "name": "陆家嘴", "time": "17:00-19:00", "duration": "2h", "tip": "东方明珠夜景", "lat": 31.2397, "lng": 121.5005, "cps_link": null }
+          ],
+          "tips": "外滩夜景必看，建议傍晚前往"
+        },
+        {
+          "day": 2,
+          "title": "文艺小资线",
+          "spots": [
+            { "name": "田子坊", "time": "10:00-12:00", "duration": "2h", "tip": "文艺小店聚集", "lat": 31.2089, "lng": 121.4669, "cps_link": null },
+            { "name": "新天地", "time": "12:00-14:00", "duration": "2h", "tip": "午餐+石库门建筑", "lat": 31.2291, "lng": 121.4729, "cps_link": null },
+            { "name": "上海博物馆", "time": "14:30-17:00", "duration": "2.5h", "tip": "免费，需预约", "lat": 31.2304, "lng": 121.4751, "cps_link": null }
+          ],
+          "tips": "博物馆周一闭馆"
+        },
+        {
+          "day": 3,
+          "title": "迪士尼奇幻日",
+          "spots": [
+            { "name": "上海迪士尼", "time": "09:00-21:00", "duration": "12h", "tip": "提前买票，建议工作日", "lat": 31.1443, "lng": 121.6570, "cps_link": null }
+          ],
+          "tips": "全天游玩，建议住附近酒店"
+        }
+      ]
+    },
+    "city-chengdu": {
+      "city": { "id": "city-chengdu", "name": "成都", "cover_img": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20panda%20travel&image_size=landscape_16_9" },
+      "plans": [
+        {
+          "day": 1,
+          "title": "熊猫与古街",
+          "spots": [
+            { "name": "大熊猫繁育研究基地", "time": "08:00-12:00", "duration": "4h", "tip": "早到看熊猫进食，门票55元", "lat": 30.7327, "lng": 104.1470, "cps_link": null },
+            { "name": "宽窄巷子", "time": "13:00-15:00", "duration": "2h", "tip": "免费，体验老成都生活", "lat": 30.6698, "lng": 104.0547, "cps_link": null },
+            { "name": "人民公园", "time": "15:00-17:00", "duration": "2h", "tip": "喝茶掏耳朵，地道成都", "lat": 30.6581, "lng": 104.0576, "cps_link": null },
+            { "name": "锦里", "time": "18:00-20:00", "duration": "2h", "tip": "晚餐+夜景", "lat": 30.6468, "lng": 104.0484, "cps_link": null }
+          ],
+          "tips": "熊猫基地建议早到，下午熊猫会睡觉"
+        },
+        {
+          "day": 2,
+          "title": "川味美食线",
+          "spots": [
+            { "name": "武侯祠", "time": "09:00-11:00", "duration": "2h", "tip": "三国圣地，门票50元", "lat": 30.6461, "lng": 104.0487, "cps_link": null },
+            { "name": "太古里", "time": "12:00-15:00", "duration": "3h", "tip": "午餐+购物", "lat": 30.6530, "lng": 104.0822, "cps_link": null },
+            { "name": "春熙路", "time": "15:00-18:00", "duration": "3h", "tip": "繁华商圈", "lat": 30.6590, "lng": 104.0817, "cps_link": null }
+          ],
+          "tips": "成都美食推荐：火锅、串串、担担面"
+        },
+        {
+          "day": 3,
+          "title": "都江堰青城山",
+          "spots": [
+            { "name": "都江堰", "time": "09:00-12:00", "duration": "3h", "tip": "古代水利工程，门票80元", "lat": 30.9885, "lng": 103.6107, "cps_link": null },
+            { "name": "青城山", "time": "13:30-17:00", "duration": "3.5h", "tip": "道教名山，门票80元", "lat": 30.8945, "lng": 103.4732, "cps_link": null }
+          ],
+          "tips": "需一日游，建议跟团或自驾"
+        }
+      ]
+    },
+    "city-xian": {
+      "city": { "id": "city-xian", "name": "西安", "cover_img": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Xian%20Terracotta%20Warriors%20travel&image_size=landscape_16_9" },
+      "plans": [
+        {
+          "day": 1,
+          "title": "古城墙与回民街",
+          "spots": [
+            { "name": "西安城墙", "time": "09:00-11:00", "duration": "2h", "tip": "可骑行，门票54元", "lat": 34.2594, "lng": 108.9397, "cps_link": null },
+            { "name": "钟楼鼓楼", "time": "11:00-12:30", "duration": "1.5h", "tip": "古城中心地标", "lat": 34.2612, "lng": 108.9397, "cps_link": null },
+            { "name": "回民街", "time": "12:30-15:00", "duration": "2.5h", "tip": "羊肉泡馍、肉夹馍", "lat": 34.2631, "lng": 108.9397, "cps_link": null },
+            { "name": "大雁塔", "time": "16:00-18:00", "duration": "2h", "tip": "音乐喷泉夜景", "lat": 34.2186, "lng": 108.9594, "cps_link": null }
+          ],
+          "tips": "城墙骑行推荐傍晚"
+        },
+        {
+          "day": 2,
+          "title": "兵马俑华清池",
+          "spots": [
+            { "name": "秦始皇兵马俑", "time": "09:00-13:00", "duration": "4h", "tip": "世界奇迹，门票120元", "lat": 34.3848, "lng": 109.2733, "cps_link": null },
+            { "name": "华清宫", "time": "14:00-17:00", "duration": "3h", "tip": "杨贵妃沐浴地，门票120元", "lat": 34.3660, "lng": 109.2138, "cps_link": null }
+          ],
+          "tips": "兵马俑建议请讲解"
+        },
+        {
+          "day": 3,
+          "title": "陕西历史与法门寺",
+          "spots": [
+            { "name": "陕西历史博物馆", "time": "09:00-12:00", "duration": "3h", "tip": "免费需预约，珍宝众多", "lat": 34.2261, "lng": 108.9586, "cps_link": null },
+            { "name": "小雁塔", "time": "13:00-15:00", "duration": "2h", "tip": "免费，荐福寺", "lat": 34.2408, "lng": 108.9453, "cps_link": null }
+          ],
+          "tips": "陕博周一闭馆"
+        }
+      ]
+    },
+    "city-hangzhou": {
+      "city": { "id": "city-hangzhou", "name": "杭州", "cover_img": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Hangzhou%20West%20Lake%20travel&image_size=landscape_16_9" },
+      "plans": [
+        {
+          "day": 1,
+          "title": "西湖十景",
+          "spots": [
+            { "name": "断桥残雪", "time": "09:00-10:00", "duration": "1h", "tip": "白蛇传传说地", "lat": 30.2626, "lng": 120.1495, "cps_link": null },
+            { "name": "苏堤春晓", "time": "10:00-12:00", "duration": "2h", "tip": "步行或骑行", "lat": 30.2526, "lng": 120.1372, "cps_link": null },
+            { "name": "雷峰塔", "time": "13:30-15:00", "duration": "1.5h", "tip": "登塔看西湖全景，门票40元", "lat": 30.2336, "lng": 120.1496, "cps_link": null },
+            { "name": "三潭印月", "time": "15:30-17:00", "duration": "1.5h", "tip": "需乘船，船票55元", "lat": 30.2400, "lng": 120.1380, "cps_link": null }
+          ],
+          "tips": "西湖免费，环湖骑行推荐"
+        },
+        {
+          "day": 2,
+          "title": "灵隐与龙井",
+          "spots": [
+            { "name": "灵隐寺", "time": "09:00-12:00", "duration": "3h", "tip": "千年古刹，门票30元", "lat": 30.2406, "lng": 120.1001, "cps_link": null },
+            { "name": "龙井村", "time": "13:00-15:00", "duration": "2h", "tip": "品茶+茶园", "lat": 30.2167, "lng": 120.1167, "cps_link": null },
+            { "name": "九溪烟树", "time": "15:00-17:00", "duration": "2h", "tip": "徒步好去处", "lat": 30.1900, "lng": 120.1150, "cps_link": null }
+          ],
+          "tips": "灵隐寺飞来峰需另购票"
+        }
+      ]
+    },
+    "city-chongqing": {
+      "city": { "id": "city-chongqing", "name": "重庆", "cover_img": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20night%20view%20travel&image_size=landscape_16_9" },
+      "plans": [
+        {
+          "day": 1,
+          "title": "山城夜景线",
+          "spots": [
+            { "name": "解放碑", "time": "10:00-12:00", "duration": "2h", "tip": "市中心地标", "lat": 29.5552, "lng": 106.5779, "cps_link": null },
+            { "name": "洪崖洞", "time": "13:00-15:00", "duration": "2h", "tip": "吊脚楼建筑，免费", "lat": 29.5647, "lng": 106.5814, "cps_link": null },
+            { "name": "长江索道", "time": "15:30-16:30", "duration": "1h", "tip": "过江体验，单程30元", "lat": 29.5583, "lng": 106.5861, "cps_link": null },
+            { "name": "南山一棵树", "time": "18:00-20:00", "duration": "2h", "tip": "看重庆夜景最佳点", "lat": 29.5250, "lng": 106.6100, "cps_link": null }
+          ],
+          "tips": "重庆夜景必看，建议南山一棵树"
+        },
+        {
+          "day": 2,
+          "title": "武隆天坑",
+          "spots": [
+            { "name": "武隆天生三桥", "time": "09:00-13:00", "duration": "4h", "tip": "世界自然遗产，门票125元", "lat": 29.3220, "lng": 107.7580, "cps_link": null },
+            { "name": "仙女山", "time": "14:00-17:00", "duration": "3h", "tip": "高山草原，门票60元", "lat": 29.3667, "lng": 107.7333, "cps_link": null }
+          ],
+          "tips": "武隆距市区较远，建议跟团"
+        },
+        {
+          "day": 3,
+          "title": "磁器口与轻轨",
+          "spots": [
+            { "name": "磁器口古镇", "time": "09:00-12:00", "duration": "3h", "tip": "免费，体验老重庆", "lat": 29.5792, "lng": 106.4475, "cps_link": null },
+            { "name": "李子坝轻轨站", "time": "13:00-14:00", "duration": "1h", "tip": "轻轨穿楼奇观", "lat": 29.5378, "lng": 106.5403, "cps_link": null },
+            { "name": "三峡博物馆", "time": "14:30-17:00", "duration": "2.5h", "tip": "免费", "lat": 29.5653, "lng": 106.5531, "cps_link": null }
+          ],
+          "tips": "重庆火锅推荐：九宫格、毛肚、鸭肠"
+        }
+      ]
+    }
+  }
+}

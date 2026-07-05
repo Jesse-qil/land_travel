@@ -1,0 +1,13 @@
+{
+  "name": "travel-agent",
+  "version": "3.2.0",
+  "description": "陆地旅行 AI Agent — 轻量 ToolCall + LLM 异步调用 + 预扣风控",
+  "private": true,
+  "type": "module",
+  "main": "server.py",
+  "scripts": {
+    "dev": "python -m uvicorn server:app --reload --port 8001",
+    "start": "python -m uvicorn server:app --host 0.0.0.0 --port 8001"
+  },
+  "dependencies": {}
+}
